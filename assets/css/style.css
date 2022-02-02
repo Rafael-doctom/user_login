@@ -1,0 +1,42 @@
+#container{
+    background-color: rgb(126, 158, 218); 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    background-color: white;
+    padding: 2rem;
+    width: 30vw;
+    height: 50vh;
+    border: 0;
+    border-radius: 15px;
+}
+
+.formContent{
+    margin-top: 2rem;
+}
+
+.formContent input {
+    height: 5vh;
+    width: 30vw;
+    margin-top: 1.55rem;
+    padding-left: 5px;
+}
+
+.formContent input:focus {
+    outline: none;
+}
+
+.formContent  .inputSubmit{
+    height: 5vh;
+    width: 30.5vw;
+    margin-top: 1.55rem;
+    background: tomato;
+    cursor: pointer;
+    color: white;
+}
